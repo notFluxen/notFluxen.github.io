@@ -1,0 +1,312 @@
+@font-face {
+    font-family:"BubblegumSans-Regular" ;
+    src: url("myfonts\BubblegumSans-Regular.ttf");
+    
+}
+@font-face {
+    font-family: "Graduate-Regular";
+    src: url("myfonts/Graduate-Regular.ttf");
+}
+@font-face {
+    font-family:"RammettoOne-Regular" ;
+    src: url("myfonts/RammettoOne-Regular.ttf");
+}
+@font-face {
+    font-family:"Skranji-Bold" ;
+    src: url("myfonts/Skranji-Bold.ttf");
+}
+
+@font-face {
+    font-family:"Skranji-Regular" ;
+    src: url("myfonts/Skranji-Regular.ttf");
+}
+
+@font-face {
+    font-family:"BalsamiqSans-Regular" ;
+    src: url("myfonts/BalsamiqSans-Regular.ttf");
+}
+
+@font-face {
+    font-family:"BalsamiqSans-Bold" ;
+    src: url("myfonts/BalsamiqSans-Bold.ttf");
+}
+
+@font-face {
+    font-family:"PermanentMarker" ;
+    src: url("myfonts/PermanentMarker-Regular.ttf");
+}
+
+@font-face {
+    font-family:"BebasNeue" ;
+    src: url("myfonts/BebasNeue-Regular.ttf");
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;
+}
+
+.texts {
+    font-size: 25px;
+    font-family: "Skranji-Regular";
+    text-align: right;
+    display:inline;
+}
+
+.texts2 {
+    font-size: 25px;
+    font-family: "Skranji-Regular";
+    text-align: center;
+    display:flex;
+    padding-top: 20px;
+}
+
+.texts3 {
+    font-size: 25px;
+    font-family: "Skranji-Regular";
+    text-align: left;
+    margin-left: -60px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.image
+{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.image2 {
+    margin: 16px 16px 16px 16px;
+}
+.desc {
+    width: 1100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.desc2 {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    
+    }
+
+.desc3 {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        
+    }
+
+section {
+    display: flex;
+    margin: auto;
+}
+
+.sect2 {
+    display: inline;
+    margin:auto;
+    position: relative;
+    text-align: center;
+}
+.header {
+    font-size: 80px;
+    font-family: "Graduate-Regular";
+}
+
+.header2 {
+    font-size: 80px;
+    font-family: "Graduate-Regular";
+    text-align: center;
+}
+
+.header3 {
+    font-size: 80px;
+    font-family: "PermanentMarker";
+    text-align: center;
+}
+
+.header4 {
+    font-size: 40px;
+    font-family: Skranji-Bold;
+    text-align: left;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+.wrapper {
+    background: #fcf695;
+    height: 750px;
+}
+
+.wrapper2 {
+    background: #fcf695;
+    height: 1000px;
+}
+
+.navbar
+{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 40px;
+    float: left;
+    position: relative;
+    font-family: "BebasNeue";
+    color:aliceblue;
+}
+.menu
+{
+    float: right;
+    position: relative;
+        
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+    
+}
+
+nav ul li a{
+    color: blanchedalmond;
+    text-align: center;
+    padding: 16px 16px 25px 16px;
+    background-size: 0px 16px 25px 16px;
+    position: relative;
+    size: initial;
+    margin: 20px 10px 20px 10px;
+    background-color: black;
+    border-radius: 10px;
+    }
+
+
+nav ul li a:hover {
+    color: antiquewhite;
+    background: #FDDD5C;
+    background-size: 0px 16px 25px 16px;
+    animation-name: slideup;
+    animation-duration: 0.08s;
+    
+    
+}
+
+@keyframes slideup {
+    from {
+        padding-top: 0%;
+      }
+    
+      to {
+        padding-top: 12%;
+      }
+    }
+    
+nav ul li b {
+    background:#7EC4CF;
+    padding: 16px 16px 25px 16px;
+    border-radius: 10px;
+    margin: -18px;
+
+}
+
+.anim1 {
+    animation-name: slideright;
+    animation-duration: 1.2s;
+    overflow: hidden;
+}
+
+@keyframes slideright {
+    from {
+        opacity: 0%;
+        padding-left: 50px;
+    }
+
+    to {
+        opacity: 100%;
+        padding-left: 0px;
+    }
+}
+
+.toc_container {
+    background: black none repeat scroll 0 0;
+    display: table;
+    border-radius: 10px;
+    font-size: 95%;
+    padding: 20px;
+    padding-bottom: 20px;
+    width: auto;
+    font-family: "Graduate-Regular";
+    color: white;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    
+}
+
+.toc_title {
+    font-weight: 700;
+    font-family: Graduate-Regular;
+    text-align: center;
+    color:white;
+}
+
+.toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.points:visited {
+    color: white !important;
+    font-family: "Graduate-Regular";
+    padding-top: 5%;
+    
+}
+
+.points:link {
+    color: white !important;
+    font-family: "Graduate-Regular";
+    padding-top: 5%;
+    
+}
+
+.title-table {
+    font-family: Graduate-Regular;
+    color: antiquewhite;
+    text-decoration: bold;
+}
+
+.test {
+    text-decoration: none !important;
+}
+
+
+
